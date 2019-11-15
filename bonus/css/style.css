@@ -94,6 +94,18 @@
   background-image: url(../img/grecia.jpg);
 }
 
+.brasile {
+  background-image: url(../img/brasile.jpg);
+}
+
+.venezuela {
+  background-image: url(../img/venezuela.jpg);
+}
+
+.colombia{
+  background-image: url(../img/colombia.jpg);
+}
+
 h2 {
   position: absolute;
   left:50%;
