@@ -56,12 +56,12 @@
   transform: translate(-50%);
   margin-bottom: 20px;
   cursor: pointer;
-}
-.box:hover {
-  -webkit-box-shadow: 5px 5px 10px -2px #000000;
-  -moz-box-shadow: 5px 5px 10px -2px #000000;
-  -o-box-shadow: 5px 5px 10px -2px #000000;
   box-shadow: 5px 5px 10px -2px #000000;
+  border-radius: 20px;
+}
+
+.box:hover {
+  box-shadow: none;
 }
 
 .immagine {
@@ -73,6 +73,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-radius: 20px;
 }
 .immagine .layover {
   background-color: rgba(0, 0, 0, 0.5);
@@ -113,6 +114,10 @@ h2 {
   color: white;
   font-size: 50px;
   text-shadow: 5px 5px 5px #000;
+}
+
+.box:hover h2 {
+  text-shadow: none;
 }
 
 .box2 {
